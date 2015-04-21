@@ -1,2 +1,2 @@
-servicepoint
+skosayMgr2
 ============
