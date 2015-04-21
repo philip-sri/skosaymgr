@@ -1,6 +1,4 @@
 {
-  "name": "myApp",
-  "app_id": "",
   "name": "proxy-example",
   "app_id": "",
   "proxies": [
@@ -8,5 +6,13 @@
       "path": "/api",
       "proxyUrl": "http://devapp.skosay.com/api"
     }
+  ],
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
   ]
 }
