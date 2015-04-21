@@ -1,0 +1,12 @@
+{
+  "name": "myApp",
+  "app_id": "",
+  "name": "proxy-example",
+  "app_id": "",
+  "proxies": [
+    {
+      "path": "/api",
+      "proxyUrl": "http://devapp.skosay.com/api"
+    }
+  ]
+}

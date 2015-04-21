@@ -3,7 +3,7 @@ bin
 target
 
 # dev folders
-servicepoint_data
+
 
 # Eclipse Ignores
 .classpath
