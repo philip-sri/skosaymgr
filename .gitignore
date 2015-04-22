@@ -3,12 +3,14 @@ temp/
 *.DS_Store
 *.log
 *.swp
+*.keystore
 
 # generated files
 bin
 target
 
 # dev folders
+platforms/^.*
 
 # Node Modules
 node_modules/
