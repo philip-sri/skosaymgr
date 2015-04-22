@@ -21,7 +21,7 @@
     "android"
   ],
   "repository": {
-  "type": "git",
-  "url": "git://philip_sri@bitbucket.org/philip_sri/skosaymgr2.git"
+    "type": "git",
+    "url": "git://philip_sri@bitbucket.org/philip_sri/skosaymgr2.git"
   }
 }
