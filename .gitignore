@@ -4,6 +4,8 @@ target
 
 # dev folders
 
+# Node Modules
+node_modules
 
 # Eclipse Ignores
 .classpath

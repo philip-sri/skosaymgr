@@ -22,9 +22,15 @@ angular.module('skosayMgr', ['ionic', 'skosayMgr.controllers', 'skosayMgr.servic
 })
 
 .constant('ApiEndpoint', {
+// for: Actual
   url: 'http://devapp.skosay.com/api'
+    
+// for: Brackets
 //  url: 'http://127.0.0.1:52326/api'
+    
+// for: ionic serve
 //  url: 'http://localhost:8100/api'
+    
 })
 
 .config(function($stateProvider, $urlRouterProvider) {
