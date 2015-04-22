@@ -7,6 +7,7 @@
         "/Users/papa/Downloads/myApp/platforms/android/assets/www/lib/ionic/js/angular/angular.min.js",
         "/Users/papa/Downloads/myApp/www/js/controllers.js",
         "/Users/papa/ionic/skosaymgr2/platforms/ios/www/lib/ionic/js/ionic.min.js",
-        "/Users/papa/ionic/skosaymgr2/platforms/ios/www/lib/ionic/js/angular-ui/angular-ui-router.js"
+        "/Users/papa/ionic/skosaymgr2/platforms/ios/www/lib/ionic/js/angular-ui/angular-ui-router.js",
+        "/Users/papa/ionic/skosaymgr2/platforms/android/assets/www/lib/ionic/js/ionic.min.js"
     ]
 }

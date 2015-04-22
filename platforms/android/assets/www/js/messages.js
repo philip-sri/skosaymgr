@@ -5,7 +5,6 @@ angular.module('skosayMgr.messages', [])
 
     console.log('New Messages'+'\n'+$scope.id);
     
-//    var newList = this;
     $scope.stores = [];
     
     console.log($scope);
@@ -34,8 +33,15 @@ angular.module('skosayMgr.messages', [])
         
     $http(req)
         .success(function(data, status, headers, config) {
-            
+        
+        console.log('Number of stores: '+data.stores.length);
+//        console.log('Number of Departments: '+data.storeDept.length);
+        
+        if (data.stores.length == 0) {
+            $scope.stores = data.storeDept;
+        } else {
             $scope.stores=data.stores;
+        }
         
             console.log($scope);
 //            $state.go('tab.dash', { id: $scope.id });
@@ -79,7 +85,14 @@ angular.module('skosayMgr.messages', [])
     $http(req)
         .success(function(data, status, headers, config) {
             
+        console.log('Number of stores: '+data.stores.length);
+//        console.log('Number of Departments: '+data.storeDept.length);
+        
+        if (data.stores.length == 0) {
+            $scope.stores = data.storeDept;
+        } else {
             $scope.stores=data.stores;
+        }
         
             console.log($scope.stores);
 //            $state.go('tab.chats', { id: $scope.id });
@@ -126,7 +139,14 @@ angular.module('skosayMgr.messages', [])
     
         .success(function(data, status, headers, config) {
             
+        console.log('Number of stores: '+data.stores.length);
+//        console.log('Number of Departments: '+data.storeDept.length);
+        
+        if (data.stores.length == 0) {
+            $scope.stores = data.storeDept;
+        } else {
             $scope.stores=data.stores;
+        }
         
             console.log($scope.stores);
 //            $state.go('tab.account', { id: $scope.id });
